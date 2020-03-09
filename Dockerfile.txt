@@ -10,9 +10,5 @@ LABEL maintainer="dharanisri201@gmail.com"
 RUN apt-get update && apt-get upgrade -y
 
 #
-# Install NGINX to test.
-RUN apt-get install nginx -y
-
-#
 # Expose port 80
 EXPOSE 80
